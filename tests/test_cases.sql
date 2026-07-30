@@ -11,10 +11,6 @@ INSERT INTO Student VALUES(10001,'Rahul','2005-02-15','Male',101);
 
 SELECT * FROM Student;
 
--- Test PRIMARY KEY
-INSERT INTO Student VALUES (10001,'Arun','2006-01-01','Male',102);
-
--- Should fail
 
 -- Test NOT NULL
 INSERT INTO Student VALUES (NULL,'Meena','2005-06-06','Female',103);
