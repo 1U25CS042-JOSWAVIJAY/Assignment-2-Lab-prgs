@@ -1,9 +1,9 @@
 
 
 CREATE TABLE Student (
-    StudentID NUMBER(5) PRIMARY KEY,
-    StudentName VARCHAR2(20) NOT NULL UNIQUE,
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(20) NOT NULL UNIQUE,
     DOB DATE NOT NULL,
-    Gender VARCHAR2(10) NOT NULL,
-    DepartmentID NUMBER(5) NOT NULL
+    Gender VARCHAR(10) NOT NULL,
+    DepartmentID INT NOT NULL
 );
