@@ -1,8 +1,19 @@
-CREATE TABLE Student (
-    StudentID INT PRIMARY KEY,
-    StudentName VARCHAR(20) NOT NULL UNIQUE,
-    DOB DATE NOT NULL,
-    Gender VARCHAR(10) NOT NULL,
-    DepartmentID INT NOT NULL
+create database joswa17;
+use joswa17;
+
+create table student1(
+    StudentID integer(5) primary key,
+    Studentname varchar(20),
+    DOB date unique,
+    gender varchar(10),
+    departmentID integer(5) not null
 );
+
+desc student1;
+
+insert into student1 values ("12030", "Joswa", "2007-01-17", "Male", "10030");
+select * from student1;
+
+
+
 
